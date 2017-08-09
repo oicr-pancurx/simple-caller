@@ -7,7 +7,7 @@ use Data::Dumper;
 my $vcfTarget = shift(@ARGV);
 my @bams = @ARGV;
 
-my $simpleCaller = "/.mounts/labs/PCSI/users/rdenroche/simpleCaller/simpleCaller.pl";
+my $simpleCaller = "/.mounts/labs/PCSI/production/simple-caller/simpleCaller.pl";
 my $bedtools = "/oicr/local/analysis/sw/bedtools/2.24.0/bedtools2/bin/bedtools";
 my $samtools = "/oicr/local/analysis/sw//samtools/samtools-0.1.18/samtools";
 my $outDir = "sc_out";
